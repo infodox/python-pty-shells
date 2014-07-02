@@ -1,18 +1,13 @@
-python-pty-shells
-=================
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                    Version 2, December 2004
 
-Python PTY Shells - Insecurety Research (2013)
+ Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
 
-The following is a collection of bind and reverse shells which give you a fully working PTY.
+ Everyone is permitted to copy and distribute verbatim or modified
+ copies of this license document, and changing it is allowed as long
+ as the name is changed.
 
-This is far superior to a normal bind or reverse shell, as you have job control and an interactive PTY and can do such things as use nano/vi to write files, su to elevate privs/change user, and ssh onward. You can also CTRL+C  and suchlike. 
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
-I have implemented the bind and backconnect shells using the TCP protocol, the SCTP protocol, and the UDP protocol.
-
-A demonstration video and blog post explaining the advantages/disadvantages of each technique is on the way, I just need to get around to it. 
-
-For the SCTP shell, you will need the PySCTP module and the host will need to support the SCTP protocol. Most modern Linux boxes do, however you may need to install lksctp and lksctp-dev to build the python extensions. I am unsure if pyinstaller or similar can get around this.
-
-Released under the WTFPL - wtfpl.net
-Project by Insecurety Research - insecurety.net
-Author: Darren 'infodox' Martyn.
+  0. You just DO WHAT THE FUCK YOU WANT TO.
