@@ -7,6 +7,8 @@ Gives a reverse connect PTY over TCP.
 
 For an excellent listener use the following socat command:
 socat file:`tty`,echo=0,raw tcp4-listen:PORT
+
+Or use the included tcp_pty_shell_handler.py
 """
 import os
 import pty
