@@ -1,9 +1,11 @@
 #!/usr/bin/python2
 """
-Python Bind TCP PTY Shell - testing version
+Python Bind SCTP PTY Shell - testing version
 infodox - insecurety.net (2013)
 
-Binds a PTY to a TCP port on the host it is ran on.
+Binds a PTY to a SCTP port on the host it is ran on.
+
+Use the sctp_pty_shell_handler.py script to connect.
 """
 import os
 import pty
